@@ -1,6 +1,10 @@
 using HospitalManagementSystem.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using HospitalManagementSystem.Utilities;
+using HospitalManagementSystem.Repositories.Implementations;
+using HospitalManagementSystem.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +12,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDefaultIdentity<IdentityUser>()
+builder.Services.AddIdentity<IdentityUser,IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>();
+
+builder.Services.AddScoped<IDbInitalizer, DbInitalizer>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,14 +28,23 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseStaticFiles();
-
+DataSeeding();
 app.UseRouting();
 app.UseAuthentication();;
 
 app.UseAuthorization();
-
+app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{Area=PatientPanel}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+void DataSeeding()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbInitalizer=scope.ServiceProvider.GetRequiredService<IDbInitalizer>();
+        dbInitalizer.Initialize();
+    }
+
+}
