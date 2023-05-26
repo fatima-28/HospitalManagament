@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\custom\\css\\style.css",
+      "PackagePath": "staticwebassets\\custom\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

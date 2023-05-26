@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n9SPCRESrylYGeiXiCaC/QPrT0AsmmDAug+xuoUe6Hc=",
+  "Hash": "Vz3DjzKi0bh0+irFwrnsKw69CpFzbacIDscG24+NGDQ=",
   "Source": "HospitalManagementSystem",
   "BasePath": "_content/HospitalManagementSystem",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\custom\\css\\style.css",
+      "SourceId": "HospitalManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementSystem",
+      "RelativePath": "custom/css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\custom\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\favicon.ico",

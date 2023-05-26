@@ -4,65 +4,138 @@
     ViewData["Title"] = "Register";
 }
 <style>
-    .card-registration .select-input.form-control[readonly]:not([disabled]) {
-        font-size: 1rem;
-        line-height: 2.15;
-        padding-left: .75em;
-        padding-right: .75em;
+
+    .custom-login {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
     }
 
-    .card-registration .select-arrow {
-        top: 13px;
+        .custom-login .main {
+            width: 40%;
+            min-height: 50%;
+            padding: 20px 70px;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        }
+
+        .custom-login input {
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+            border: none;
+            width: 100%;
+            height: 35px;
+            padding: 7px;
+            box-sizing: border-box;
+        }
+
+            .custom-login input:focus {
+                box-shadow: rgb(52, 101, 133) 0px 1px 1px, rgb(52, 101, 133) 0px 0px 1px 1px;
+                outline: none;
+            }
+
+        .custom-login .mrgn-px {
+            margin-top: 10px;
+        }
+
+    * {
+        box-sizing: border-box;
     }
-    </style>
+
+    body {
+        font-family: 'Lato', sans-serif;
+        color: #202020;
+    }
+
+    p {
+        display: none;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        overflow: hidden;
+    }
+
+        table td, table th {
+            border-top: 1px solid #ecf0f1;
+            padding: 10px;
+        }
+
+        table td {
+            border-left: 1px solid #ecf0f1;
+            border-right: 1px solid #ecf0f1;
+        }
+
+        table th {
+            background-color: #4ecdc4;
+        }
+
+        table tr:nth-of-type(even) td {
+            background-color: #d9f4f2;
+        }
+
+        table .total th {
+            background-color: white;
+        }
+
+        table .total td {
+            text-align: right;
+            font-weight: 700;
+        }
+
+    .mobile-header {
+        display: none;
+    }
+
+    td:last-child {
+        width: 30%;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    table button {
+        margin: 1px;
+    }
+
+    .create-button {
+        padding: 10px 20px;
+    }
+
+        .create-button button {
+            width: 150px !important;
+        }
+</style>
+<div class="custom-login">
+    <div class="main">
+        <h2 class="my-2">Create New Account</h2>
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <label asp-for="Input.Email" for="form3Example8">Email</label>
+            <input asp-for="Input.Email" autocomplete="off" id="form3Example8"  placeholder="Email" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
 
 
-<div class="custom-register">
-    <section class="h-100 bg-white">
-        <div class="container py-5 h-100">
-            <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col">
-                    <div class="card card-registration my-4">
-                        <div class="row ">
-                             <div class="col-xl-12">
-                                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                                    <div class="card-body p-md-5 text-black">
-                                        <h3 class="mb-5 text-uppercase">Create Account</h3>
-                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                                      
+            <label asp-for="Input.Password" for="form3Example9">Password</label>
+            <input asp-for="Input.Password" autocomplete="off" id="form3Example9" placeholder="Password" />
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
 
-                                        <div class="form-outline mb-4">
-                                            <label class="form-label" asp-for="Input.Email" for="form3Example8">Email</label>
-                                            <input asp-for="Input.Email"  autocomplete="username" id="form3Example8" class="form-control form-control-lg" />
-                                            <span asp-validation-for="Input.Email" class="text-danger"></span>
-                                        </div>
-                                        <div class="form-outline mb-4">
-                                            <label class="form-label" asp-for="Input.Password" for="form3Example8">Password</label>
-                                            <input asp-for="Input.Password" type="password" autocomplete="password" id="form3Example9" class="form-control form-control-lg" />
-                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
-                                        </div>
-                                        <div class="form-outline mb-4">
-                                            <label class="form-label" asp-for="Input.ConfirmPassword" for="form3Example80">Confirm Password</label>
-                                            <input asp-for="Input.ConfirmPassword" type="password" autocomplete="password" id="form3Example10" class="form-control form-control-lg" />
-                                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                                        </div>
-                                 
-
-                                        <div class="d-flex justify-content-end pt-3">
-                                           
-                                            <button type="button" class="btn btn-warning btn-lg ms-2">Submit form</button>
-                                        </div>
-
-                                    </div>
-
-                                </form>
-                               </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <label asp-for="Input.ConfirmPassword" for="form3Example10">Confirm Password</label>
+            <input asp-for="Input.ConfirmPassword" autocomplete="off" id="form3Example10" placeholder="Confirm Password" />
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            <button style="float: right"
+                    class="my-3 btn btn-primary bt-lg d-block">
+                Register
+            </button>
+            <a class="mrgn-px-2" href="3">You already have an account? Login</a>
+        </form>
+    </div>
 </div>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

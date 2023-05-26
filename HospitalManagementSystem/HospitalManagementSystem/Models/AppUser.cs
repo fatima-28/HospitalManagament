@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HospitalManagementSystem.Models
 {
@@ -18,7 +19,9 @@ namespace HospitalManagementSystem.Models
         public DateTime Date { get; set; }
         public int DepartmentId { get; set; }
         public Department Department { get; set; }
+        [NotMapped]
         public ICollection<Appointment>? Appointment { get; set; }
+        [NotMapped]
         public ICollection<Payroll>? Payrolls { get; set; }
     }
    

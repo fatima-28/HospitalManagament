@@ -14,6 +14,41 @@ namespace HospitalManagementSystem.Services
 
 
         }
+
+        public void Add(HospitalVM vm)
+        {
+           var model=new HospitalVM().ConvertVM(vm);
+            _unitOfWork.GenericRepository<Hospital>().Add(model);
+            _unitOfWork.Save();
+        }
+
+        public void Delete(int Id)
+        {
+           var model=_unitOfWork.GenericRepository<Hospital>().GetById(Id);
+            _unitOfWork.GenericRepository<Hospital>().Delete(model);
+            _unitOfWork.Save();
+
+        }
+
+        public void Edit(HospitalVM vm)
+        {
+            var model = new HospitalVM().ConvertVM(vm);
+            var modelWthId = _unitOfWork.GenericRepository<Hospital>().GetById(model.Id);
+            modelWthId.PinCode=vm.PinCode;
+            modelWthId.City=vm.City;
+            modelWthId.Name=vm.Name;
+            modelWthId.Country=vm.Country;
+            _unitOfWork.GenericRepository<Hospital>().Update(modelWthId);
+            _unitOfWork.Save();
+
+        }
+        public HospitalVM GetById(int id)
+        {
+            var hospital = _unitOfWork.GenericRepository<Hospital>().GetById(id);
+            var hospVm = new HospitalVM(hospital);
+            return hospVm;
+        }
+
         public PagedResult<HospitalVM> GetAll(int pageNum, int pageSize)
         {
             var hospitalVM = new HospitalVM();
@@ -43,6 +78,8 @@ namespace HospitalManagementSystem.Services
             };
             return res;
         }
+
+      
         private List<HospitalVM> ConvertModelToVMList(List<Hospital> modelList)
         {
             return modelList.Select(l => new HospitalVM(l)).ToList();

@@ -1,0 +1,91 @@
+
+    .custom-login {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center !important;
+    }
+    .custom-login .main {
+      width: 40%;
+      min-height: 50%;
+      padding: 20px 70px;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+        rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    }
+    .custom-login input {
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+        rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+        border: none;
+      width: 100%;
+      height: 35px;
+      padding: 7px;
+      box-sizing: border-box;
+    }
+    .custom-login input:focus {
+        box-shadow: rgb(52, 101, 133) 0px 1px 1px,
+        rgb(52, 101, 133) 0px 0px 1px 1px;
+      outline: none;
+     
+    }
+.custom-login .mrgn-px{
+    margin-top: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: #202020;
+}
+p {
+    display: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    overflow: hidden;
+}
+table td, table th {
+    border-top: 1px solid #ecf0f1;
+    padding: 10px;
+}
+table td {
+    border-left: 1px solid #ecf0f1;
+    border-right: 1px solid #ecf0f1;
+}
+table th {
+    background-color: #4ecdc4;
+}
+table tr:nth-of-type(even) td {
+    background-color: #d9f4f2;
+}
+table .total th {
+    background-color: white;
+}
+table .total td {
+    text-align: right;
+    font-weight: 700;
+}
+.mobile-header {
+    display: none;
+}
+td:last-child{
+    width: 30%;
+}
+td{
+  text-align: center;
+}
+th{
+    text-align: center;
+}
+table button{
+    margin: 1px;
+}
+.create-button{
+    padding: 10px 20px ;
+}
+.create-button button{
+width: 150px !important;
+}
