@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
 {
-    [Area("Admin")]
+    [Area("AdminPanel")]
     public class HospitalController : Controller
     {
         private readonly IHospitalService _hospitalService;
@@ -12,9 +12,9 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         {
             _hospitalService = hospitalService;
         }
-        public IActionResult Index(int pageNum=1,int pageSize=10)
+        public IActionResult Index(int PageNum=1,int PageSize=10)
         {
-            return View(_hospitalService.GetAll(pageNum, pageSize));
+            return View(_hospitalService.GetAll(PageNum, PageSize));
         }
 
         [HttpGet]

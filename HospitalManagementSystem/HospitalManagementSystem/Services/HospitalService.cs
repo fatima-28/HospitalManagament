@@ -49,15 +49,15 @@ namespace HospitalManagementSystem.Services
             return hospVm;
         }
 
-        public PagedResult<HospitalVM> GetAll(int pageNum, int pageSize)
+        public PagedResult<HospitalVM> GetAll(int PageNum, int PageSize)
         {
             var hospitalVM = new HospitalVM();
             int totalCnt = 0;
             List<HospitalVM> hospitalVmList = new List<HospitalVM>();
             try
             {
-                var excRecords = (pageNum * pageSize) - pageSize;
-                var modelList = _unitOfWork.GenericRepository<Hospital>().GetAll().Skip(excRecords).Take(pageSize).ToList();
+                var excRecords = (PageNum * PageSize) - PageSize;
+                var modelList = _unitOfWork.GenericRepository<Hospital>().GetAll().Skip(excRecords).Take(PageSize).ToList();
 
                 totalCnt = _unitOfWork.GenericRepository<Hospital>().GetAll().ToList().Count;
                 hospitalVmList = ConvertModelToVMList(modelList);
@@ -72,8 +72,8 @@ namespace HospitalManagementSystem.Services
             {
                 Data = hospitalVmList,
                 TotalItems = totalCnt,
-                PageNum = pageNum,
-                PageSize = pageSize
+                PageNum = PageNum,
+                PageSize = PageSize
 
             };
             return res;
@@ -84,7 +84,7 @@ namespace HospitalManagementSystem.Services
         {
             return modelList.Select(l => new HospitalVM(l)).ToList();
         }
-
+       
 
     }
 }

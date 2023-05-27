@@ -1,6 +1,7 @@
 ﻿@using HospitalManagementSystem.Utilities
-@model PagedResult<HospitalManagementSystem.ViewModels.HospitalVM>
+@model PagedResult<HospitalManagementSystem.ViewModels.RoomVM>
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 
 @{
     ViewData["Title"] = "Index";
@@ -124,30 +125,29 @@
             <tr class="table-headers">
                 <th>Id</th>
 
-                <th>Name</th>
+                <th>No</th>
                 <th>Type</th>
-                <th>Country</th>
-                <th>City</th>
-                <th>Pincode</th>
+                <th>Status</th>
+                <th>Hospital Id</th>
                 <th>Settings</th>
+               
             </tr>
         </thead>
         <tbody>
-         @foreach (var item in Model.Data)
+            @foreach (var item in Model.Data)
             {
                 <tr>
                     <th class="mobile-header">Id</th>
                     <td>@item.Id</td>
-                    <th class="mobile-header">Name</th>
-                    <td>@item.Name</td>
+                    <th class="mobile-header">Room Number</th>
+                    <td>@item.RoomNo</td>
                     <th class="mobile-header">Type</th>
                     <td>@item.Type</td>
-                    <th class="mobile-header">Country</th>
-                    <td>@item.Country</td>
-                     <th class="mobile-header">City</th>
-                    <td>@item.City</td>
-                    <th class="mobile-header">Pincode</th>
-                    <td>@item.PinCode</td>
+                    <th class="mobile-header">Status</th>
+                    <td>@item.Status</td>
+                    <th class="mobile-header">Hospital Id</th>
+                    <td>@item.HospitalId</td>
+                    
 
                     <th class="mobile-header">Settings</th>
                     <td>
@@ -157,8 +157,8 @@
                     </td>
                 </tr>
 
-            } 
-            </tbody>
+            }
+        </tbody>
     </table>
 </div>
 <div class="my-2">
@@ -166,7 +166,7 @@
               cs-paging-pagenumber=@Model.PageNum
               cs-paging-totalitems=@Model.TotalItems
               cs-pagenumber-param="PageNum"
-              asp-controller="Hospital"
+              asp-controller="Room"
               asp-action="Index"
               cs-pager-li-current-class="page-item active"
               cs-pager-li-other-class="page-item "

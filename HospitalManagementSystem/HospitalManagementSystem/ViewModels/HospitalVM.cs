@@ -1,4 +1,6 @@
-﻿using HospitalManagementSystem.Models;
+﻿using HospitalManagementSystem.Helper;
+using HospitalManagementSystem.Models;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace HospitalManagementSystem.ViewModels
 {
@@ -34,12 +36,13 @@ namespace HospitalManagementSystem.ViewModels
                 Type = model.Type,
                 City = model.City,
                 Country = model.Country,
-                PinCode = model.PinCode
+                PinCode = GeneratePinCode.Generate()
             };
             return hospital;
 
 
         }
+       
 
 
 
