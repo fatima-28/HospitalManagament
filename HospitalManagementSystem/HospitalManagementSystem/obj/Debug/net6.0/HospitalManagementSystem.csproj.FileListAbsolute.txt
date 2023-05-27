@@ -277,3 +277,5 @@ C:\Users\FAT\Desktop\HospitalManagement\HospitalManagementSystem\HospitalManagem
 C:\Users\FAT\Desktop\HospitalManagement\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\FAT\Desktop\HospitalManagement\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\FAT\Desktop\HospitalManagement\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\net6.0\HospitalManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\FAT\Desktop\HospitalManagement\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\net6.0\cloudscribe.Pagination.Models.dll
+C:\Users\FAT\Desktop\HospitalManagement\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\net6.0\cloudscribe.Web.Pagination.dll

@@ -161,10 +161,10 @@
     </table>
 </div>
 <cs-pager cs-paging-pagesize=(int)Model.PageSize
-          cs-paging-pagenumber=(int)Model.PageNumber
+          cs-paging-pagenumber=(int)Model.PageNum
           cs-paging-totalitems=(int)Model.TotalItems
-          cs-paging-param="pageNumber"
-          asp-controller="RoomType"
+          cs-pagenumber-param="pageNumber"
+          asp-controller="Hospital"
           asp-action="Index"
 
           cs-pager-li-current-class="page-item active"
