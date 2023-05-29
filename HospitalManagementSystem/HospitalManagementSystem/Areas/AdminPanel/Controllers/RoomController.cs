@@ -22,7 +22,8 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-
+            var hospital = _hospitalService.GetAll().Data;
+            ViewBag.hospital = hospital;
             return View();
 
         }
@@ -39,6 +40,8 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
+            var hospital = _hospitalService.GetAll().Data;
+            ViewBag.hospital = hospital;
             var vm = _roomService.GetById(id);
             return View(vm);
 

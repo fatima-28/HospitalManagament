@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit Room</h1>
+<h1>Edit Contact</h1>
 
 
 <hr />
@@ -23,15 +23,20 @@
                 <input asp-for="Phone" class="form-control" />
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
-          
+
+
             <div class="form-group">
-                <label asp-for="HospitalId" class="control-label"></label>
-                <input asp-for="HospitalId" class="form-control" />
-                <span asp-validation-for="HospitalId" class="text-danger"></span>
+                <label asp-for="Hospital" class="control-label"></label>
+                <select asp-for="HospitalId" class="form-control ">
+                    @foreach (var item in @ViewBag.hospital)
+                    {
+                        <option class=" form-control" value="@item.Id">@item.Name</option>
+                    }
+                </select>
             </div>
            
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group my-2">
+                <input type="submit" value="Save" class="btn btn-warning" />
             </div>
         </form>
     </div>

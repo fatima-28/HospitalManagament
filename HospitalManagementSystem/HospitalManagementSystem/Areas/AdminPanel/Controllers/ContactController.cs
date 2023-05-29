@@ -45,8 +45,9 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            
-           // ViewBag.hospitals = new SelectList(_hospitalService.GetAll(1,10), "Id", "Name");
+            var hospital = _hospitalService.GetAll().Data;
+            ViewBag.hospital = hospital;
+
             var vm = _contaxtService.GetById(id);
             return View(vm);
 
