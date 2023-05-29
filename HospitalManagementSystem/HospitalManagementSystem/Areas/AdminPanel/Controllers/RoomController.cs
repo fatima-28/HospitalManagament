@@ -8,9 +8,11 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
     public class RoomController : Controller
     {
         private readonly IRoomService _roomService;
-        public RoomController(IRoomService roomService)
+        private readonly IHospitalService _hospitalService;
+        public RoomController(IRoomService roomService, IHospitalService hospitalService)
         {
             _roomService = roomService;
+            _hospitalService = hospitalService;
         }
         public IActionResult Index(int PageNum = 1, int PageSize = 10)
         {
@@ -26,12 +28,19 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         }
         [HttpPost]
         public IActionResult Create(RoomVM vm)
-        { 
-            _roomService.Add(vm);
-            return RedirectToAction("Index");
-            //if (!ModelState.IsValid)
+        {
+            //_roomService.Add(vm);
+            //return RedirectToAction("Index");
+            //var hospital=_hospitalService.GetById(vm.HospitalId);
+            //if (hospital==null)
+            //{
+            //    ModelState.AddModelError("HospitalId", "This hospital is not exist!");
+
+            //}
+            //if ( vm.RoomNo == null)
             //{
 
+            //    ModelState.AddModelError("", "Please Fill required fields!");
             //    return View(vm);
 
 
@@ -41,6 +50,9 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
             //    _roomService.Add(vm);
             //    return RedirectToAction("Index");
             //}
+            _roomService.Add(vm);
+               return RedirectToAction("Index");
+
 
         }
         [HttpGet]

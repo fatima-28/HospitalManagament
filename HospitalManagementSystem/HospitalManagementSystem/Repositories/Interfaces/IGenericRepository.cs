@@ -13,7 +13,7 @@ namespace HospitalManagementSystem.Repositories.Interfaces
         Task<T> UpdateAsync(T entity);
         void Delete(T entity);
         Task<T> DeleteAsync(T entity);
-        IEnumerable<T> GetAll(Expression<Func<T,bool>> expression = null);
+        IEnumerable<T> GetAll(Expression<Func<T,bool>> expression = null,Func<IQueryable<T>,IOrderedQueryable<T> > orderBy=null,string IncludeProperties="");
 
 
     }

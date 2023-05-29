@@ -39,14 +39,25 @@ namespace HospitalManagementSystem.Repositories.Implementations
             return entity;
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>> expression = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> expression = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string IncludeProperties = "")
         {
             IQueryable<T> query = dbSet;
             if (expression!=null)
             {
                 query = query.Where(expression);
             }
-            return query.ToList();
+            foreach (var incProperty in IncludeProperties.Split(new char[] {','},StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(incProperty);
+            }
+            if (orderBy!=null)
+            {
+                return orderBy(query).ToList();
+            }
+            else
+            {
+                return query.ToList();
+            }
         }
 
         public T GetById(object id)

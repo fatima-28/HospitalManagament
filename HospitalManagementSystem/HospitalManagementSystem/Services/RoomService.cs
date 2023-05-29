@@ -60,8 +60,7 @@ namespace HospitalManagementSystem.Services
             try
             {
                 var excRecords = (PageNum * PageSize) - PageSize;
-                var modelList = _unitOfWork.GenericRepository<Room>().GetAll().Skip(excRecords).Take(PageSize).ToList();
-
+                var modelList = _unitOfWork.GenericRepository<Room>().GetAll(IncludeProperties:"Hospital").Skip(excRecords).Take(PageSize).ToList();
                 totalCnt = _unitOfWork.GenericRepository<Room>().GetAll().ToList().Count;
                 roomVmList = ConvertModelToVMList(modelList);
             }

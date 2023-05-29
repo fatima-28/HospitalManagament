@@ -9,11 +9,12 @@ namespace HospitalManagementSystem.ViewModels
     public class RoomVM
     {
         public int Id { get; set; }
-        //[Required]
+        [Required]
         public string? RoomNo { get; set; }
         public string? Type { get; set; }
         public string? Status { get; set; }
         public int HospitalId { get; set; }
+        public Hospital Hospital { get; set; }
         public RoomVM()
         {
 
@@ -25,6 +26,7 @@ namespace HospitalManagementSystem.ViewModels
             Type = model.Type;
             Status = model.Status;
             HospitalId = model.HospitalId;
+            Hospital = model.Hospital;
 
 
         }
@@ -37,8 +39,9 @@ namespace HospitalManagementSystem.ViewModels
                 Type = model.Type,
                 Status = model.Status,
                 HospitalId = model.HospitalId,
+                Hospital = model.Hospital
 
-            };
+        };
             return room;
 
 
