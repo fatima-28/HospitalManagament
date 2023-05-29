@@ -8,6 +8,7 @@ namespace HospitalManagementSystem.ViewModels
         public int HospitalId { get; set; }
         public string? Email { get; set; }
         public string? Phone { get; set; }
+        public Hospital Hospital { get; set; }
         public ContactVM()
         {
 
@@ -18,6 +19,7 @@ namespace HospitalManagementSystem.ViewModels
             Email = model.Email;
             Phone = model.Phone;
             HospitalId = model.HospitalId;
+            Hospital = model.Hospital;
 
 
         }
@@ -29,8 +31,9 @@ namespace HospitalManagementSystem.ViewModels
                 Email = model.Email,
                 Phone = model.Phone,
                 HospitalId = model.HospitalId,
+                Hospital = model.Hospital
 
-            };
+        };
             return contact;
 
 

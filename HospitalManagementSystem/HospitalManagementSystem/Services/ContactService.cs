@@ -1,4 +1,4 @@
-﻿using cloudscribe.Pagination.Models;
+﻿using HospitalManagementSystem.Utilities;
 using HospitalManagementSystem.Models;
 using HospitalManagementSystem.Repositories.Interfaces;
 using HospitalManagementSystem.ViewModels;
@@ -57,7 +57,7 @@ namespace HospitalManagementSystem.Services
             try
             {
                 var excRecords = (PageNum * PageSize) - PageSize;
-                var modelList = _unitOfWork.GenericRepository<Contact>().GetAll().Skip(excRecords).Take(PageSize).ToList();
+                var modelList = _unitOfWork.GenericRepository<Contact>().GetAll(IncludeProperties: "Hospital").Skip(excRecords).Take(PageSize).ToList();
 
                 totalCnt = _unitOfWork.GenericRepository<Contact>().GetAll().ToList().Count;
                 ContactVMList = ConvertModelToVMList(modelList);
@@ -72,7 +72,7 @@ namespace HospitalManagementSystem.Services
             {
                 Data = ContactVMList,
                 TotalItems = totalCnt,
-                PageNumber = PageNum,
+                PageNum = PageNum,
                 PageSize = PageSize
 
             };

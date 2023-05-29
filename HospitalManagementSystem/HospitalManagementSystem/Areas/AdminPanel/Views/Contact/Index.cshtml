@@ -1,5 +1,5 @@
 ﻿@using HospitalManagementSystem.Utilities
-@model PagedResult<HospitalManagementSystem.ViewModels.RoomVM>
+@model PagedResult<HospitalManagementSystem.ViewModels.ContactVM>
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 
@@ -125,9 +125,8 @@
             <tr class="table-headers">
                 <th>Id</th>
 
-                <th>No</th>
-                <th>Type</th>
-                <th>Status</th>
+                <th>Email</th>
+                <th>Phone</th>              
                 <th>Hospital </th>
                 <th>Settings</th>
                
@@ -140,11 +139,11 @@
                     <th class="mobile-header">Id</th>
                     <td>@item.Id</td>
                     <th class="mobile-header">Room Number</th>
-                    <td>@item.RoomNo</td>
+                    <td>@item.Email</td>
                     <th class="mobile-header">Type</th>
-                    <td>@item.Type</td>
+                    <td>@item.Phone</td>
                     <th class="mobile-header">Status</th>
-                    <td>@item.Status</td>
+                    
                     <th class="mobile-header">Hospital</th>
                     <td>@item.Hospital.Name</td>
                     
