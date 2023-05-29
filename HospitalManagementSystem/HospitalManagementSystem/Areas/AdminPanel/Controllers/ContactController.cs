@@ -1,4 +1,5 @@
-﻿using HospitalManagementSystem.Services;
+﻿using HospitalManagementSystem.Repositories;
+using HospitalManagementSystem.Services;
 using HospitalManagementSystem.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -9,11 +10,13 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
     public class ContactController : Controller
     {
         private readonly IContactService _contaxtService;
+       
         private readonly IHospitalService _hospitalService;
         public ContactController(IContactService contaxtService, IHospitalService hospitalService)
         {
             _contaxtService = contaxtService;
             _hospitalService = hospitalService;
+          
         }
         public IActionResult Index(int PageNum = 1, int PageSize = 10)
         {
@@ -23,6 +26,8 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            var hospital = _hospitalService.GetAll().Data;
+            ViewBag.hospital = hospital;
 
             return View();
 
@@ -30,7 +35,8 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         [HttpPost]
         public IActionResult Create(ContactVM vm)
         {
-       
+
+           
             _contaxtService.Add(vm);
             return RedirectToAction("Index");
 
@@ -39,7 +45,8 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-           // ViewBag.hospitals = new SelectList(_hospitalService.GetAll(), "Id", "Name");
+            
+           // ViewBag.hospitals = new SelectList(_hospitalService.GetAll(1,10), "Id", "Name");
             var vm = _contaxtService.GetById(id);
             return View(vm);
 

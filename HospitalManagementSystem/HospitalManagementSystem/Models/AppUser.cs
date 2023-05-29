@@ -15,6 +15,8 @@ namespace HospitalManagementSystem.Models
         public string? Nationality { get; set; }
         public string? Adress { get; set; }
         public string? Specialist { get; set; }
+        public bool IsDoctor { get; set; }
+        public string ImageUrl { get; set; }
         public Gender Gender { get; set; }
         public DateTime Date { get; set; }
         public int DepartmentId { get; set; }

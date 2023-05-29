@@ -24,11 +24,18 @@
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
             
-            <div class="form-group">
+           @* <div class="form-group">
                 <label asp-for="HospitalId" class="control-label"></label>
                 <input asp-for="HospitalId" class="form-control" />
                 <span asp-validation-for="HospitalId" class="text-danger"></span>
-            </div>
+            </div>*@
+     
+          @*  <select asp-for="HospitalId" asp-items="@ViewBag.hospital">
+                @foreach (var item in @ViewBag.hospital)
+                {
+                    <option>@item.Name</option>
+                }
+            </select>*@
 
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-success my-2" />
