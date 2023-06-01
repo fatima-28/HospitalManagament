@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YpuT7J8H0jIJEp38JI27N9ekP22RTrYOCjorAb2cB2OioN8plItMC/1E6ifNcc3j14j3lLlOkk/cIx2EU3nwrg==",
+  "dgSpecHash": "4OyvXxd7+Rep9VJqQQ0wfptJYCIT6RXi0MVbP3XoI9slQ5FG2dQim7D6on++xWp/k62AblmyhfFFmDQMth3xpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FAT\\.nuget\\packages\\cloudscribe.pagination.models\\1.1.0\\cloudscribe.pagination.models.1.1.0.nupkg.sha512",
     "C:\\Users\\FAT\\.nuget\\packages\\cloudscribe.web.pagination\\6.0.0\\cloudscribe.web.pagination.6.0.0.nupkg.sha512",

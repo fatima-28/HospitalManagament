@@ -1,4 +1,5 @@
-﻿using HospitalManagementSystem.Services;
+﻿using HospitalManagementSystem.Models;
+using HospitalManagementSystem.Services;
 using HospitalManagementSystem.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,9 +9,11 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
     public class HospitalController : Controller
     {
         private readonly IHospitalService _hospitalService;
-        public HospitalController(IHospitalService hospitalService)
+        private readonly IRoomService _roomService;
+        public HospitalController(IHospitalService hospitalService, IRoomService roomService)
         {
             _hospitalService = hospitalService;
+            _roomService = roomService;
         }
         public IActionResult Index(int PageNum=1,int PageSize=10)
         {
@@ -54,6 +57,13 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
 
         }
 
+        public async Task< IActionResult> Detail(int id)
+        {
+            var rooms = _roomService.GetAll().Data.Where(m => m.HospitalId == id);
+            ViewBag.rooms = rooms;
+            HospitalVM hospital = _hospitalService.GetById(id);
+            return View(hospital);
 
+        }
     }
 }

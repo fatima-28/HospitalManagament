@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+FspMigIWenhXsDF4jVxLe2BbNde8V15aq1Fw1Zfwr4=",
+  "Hash": "Dfuu8zJeU8S021XMq7HE5rT6s29VYGP15LH+PQtuN+Q=",
   "Source": "HospitalManagementSystem",
   "BasePath": "_content/HospitalManagementSystem",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "HospitalManagementSystem\\wwwroot",
       "Source": "HospitalManagementSystem",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\FAT\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.16\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospitalManagementSystem.styles.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospitalManagementSystem.styles.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "HospitalManagementSystem.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospitalManagementSystem.styles.css"
+      "OriginalItemSpec": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\bundle\\HospitalManagementSystem.styles.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospitalManagementSystem.bundle.scp.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospitalManagementSystem.bundle.scp.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "HospitalManagementSystem.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospitalManagementSystem.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HospitalManagementSystem.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\css\\custom.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\css\\custom.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "css/custom.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\css\\site.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\custom\\css\\style.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\custom\\css\\style.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "custom/css/style.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\custom\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\favicon.ico",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\js\\site.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "HospitalManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagement\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\FAT\\Desktop\\HospitalManagament\\HospitalManagementSystem\\HospitalManagementSystem\\wwwroot\\",
       "BasePath": "_content/HospitalManagementSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

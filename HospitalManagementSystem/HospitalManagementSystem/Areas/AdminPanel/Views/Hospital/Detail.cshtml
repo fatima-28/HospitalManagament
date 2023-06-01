@@ -1,0 +1,49 @@
+﻿@using HospitalManagementSystem.ViewModels
+@model HospitalVM
+@{
+    ViewData["Title"] = "Detail";
+}
+
+ 
+@section Css{
+    <link rel="stylesheet" href="~/css/custom.css">
+}
+<div>
+    <h1 class="text text-black">Hospital: <span class="text text-success">@Model.Name</span></h1>
+    <h3 class="text text-black">Country: <span class="text text-success">@Model.Country</span></h3>
+    <h3 class="text text-black">Pincode: <span class="text text-success">@Model.PinCode</span></h3>
+    <h1 class="text text-black">Rooms:</h1>
+    <table>
+        <thead>
+            <tr class="table-headers">
+               
+
+                <th>Id</th>
+                <th>Room</th>
+                <th>Type</th>
+                <th>Status</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.rooms)
+            {
+                <tr>
+                    <th class="mobile-header">Id</th>
+                    <td>@item.Id</td>
+                    <th class="mobile-header">RoomNo</th>
+                    <td>@item.RoomNo</td>
+                    <th class="mobile-header">Type</th>
+                    <td>@item.Type</td>
+                    <th class="mobile-header">Status</th>
+                    <td>@item.Status</td>
+                    
+
+               
+                  
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

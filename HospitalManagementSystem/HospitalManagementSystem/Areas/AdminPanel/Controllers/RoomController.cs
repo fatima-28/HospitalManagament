@@ -62,7 +62,11 @@ namespace HospitalManagementSystem.Areas.AdminPanel.Controllers
             return RedirectToAction("Index");
 
         }
-
+        public async Task<IActionResult> Detail(int id)
+        {
+            RoomVM room =  _roomService.GetById(id);
+            return View(room);
+        }
 
     }
 }

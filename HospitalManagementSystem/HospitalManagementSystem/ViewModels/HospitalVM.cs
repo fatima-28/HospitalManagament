@@ -12,6 +12,8 @@ namespace HospitalManagementSystem.ViewModels
         public string? City { get; set; }
         public string? Country { get; set; }
         public string? PinCode { get; set; }
+        public ICollection<Room>? Rooms { get; set; }
+        public ICollection<Contact>? Contacts { get; set; }
         public HospitalVM()
         {
             
@@ -24,6 +26,8 @@ namespace HospitalManagementSystem.ViewModels
             City=model.City;
             Country=model.Country;
             PinCode=model.PinCode;
+            Rooms = model.Rooms;
+            Contacts = model.Contacts;
 
 
         }
@@ -36,8 +40,10 @@ namespace HospitalManagementSystem.ViewModels
                 Type = model.Type,
                 City = model.City,
                 Country = model.Country,
-                PinCode = GeneratePinCode.Generate()
-            };
+                PinCode = GeneratePinCode.Generate(),
+                Contacts = model.Contacts,
+                Rooms = model.Rooms
+        };
             return hospital;
 
 
